@@ -25,3 +25,11 @@ proyectos.forEach(p => {
   contenedor.appendChild(tarjeta);
 });
 
+// script.js (al final)
+const btn = document.getElementById("modo-btn");
+
+btn.addEventListener("click", () => {
+  document.body.classList.toggle("oscuro");
+});
+
+
